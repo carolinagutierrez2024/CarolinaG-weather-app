@@ -9,8 +9,17 @@
 <body>
 
   <h1>Carolina's Weather Report in Houston</h1>
-  <p id="temperature">Loading temperature...</p>
-  <p id="condition">Loading condition...</p>
+  <!-- Wrapper for styling -->
+  <div class="weather-box">
+    <p id="temperature">Loading temperature...</p>
+    <p id="condition">Loading condition...</p>
+    <p id="wind">Loading wind speed...</p> <!-- New data point -->
+  </div>
+
+  <!-- To add a big image below to make it pretty -->
+<div class="weather-visual">
+  <img id="weatherImage" src="" alt="Weather condition" />
+</div>
 
   <!-- WITH Correct path to JS file inside /js folder - I kept forgetting this! -->
   <script src="js/index.js"></script>

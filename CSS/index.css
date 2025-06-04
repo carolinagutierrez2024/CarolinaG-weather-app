@@ -1,1 +1,38 @@
-body { background: lightblue; }
+body { 
+background: linear-gradient(to bottom right, #b3dced, #e0f7fa);
+font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #003049;
+}
+
+.weather-box {
+  background-color: #ffffff;
+  border: 2px solid #0077cc;
+  border-radius: 16px;
+  padding: 40px;
+  margin: 40px auto;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 2px 6px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.weather-visual {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.weather-visual img {
+  max-width: 95%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}

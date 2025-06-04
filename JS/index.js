@@ -9,11 +9,18 @@ fetch(apiUrl)
     // Extract data points
     const temp = data.current_weather.temperature;
     const weatherCode = data.current_weather.weathercode;
+    const windSpeed = data.current_weather.windspeed; //New for Week 14
 
-    // Display on page
-    document.getElementById("temperature").innerText = `Temperature: ${temp}°C`;
+    // Display on page with a conversion to Fahrenheit
+    const tempF = (temp * 9/5 + 32).toFixed(1);
+    document.getElementById("temperature").innerHTML = `<strong>Temperature:</strong> ${temp}°C / ${tempF}°F`;
     const readableCondition = interpretWeatherCode(weatherCode);
-document.getElementById("condition").innerText = `Condition: ${readableCondition}`;
+    document.getElementById("condition").innerHTML = `<strong>Condition:</strong> ${readableCondition}`;
+
+      const imagePath = getWeatherImage(weatherCode);
+      document.getElementById("weatherImage").src = imagePath;
+
+    document.getElementById("wind").innerHTML = `<strong>Wind Speed:</strong> ${windSpeed} km/h`; //New for week 14
 
   })
   .catch(error => {
@@ -35,4 +42,21 @@ document.getElementById("condition").innerText = `Condition: ${readableCondition
     // Add more if needed
   };
   return codes[code] || "Unknown condition";
+}
+
+
+function getWeatherImage(code) {
+  const images = {
+    0: "images/clear.png",
+    1: "images/mostly-clear.png",
+    2: "images/partly-cloudy.png",
+    3: "images/overcast.png",
+    45: "images/fog.png",
+    51: "images/drizzle.png",
+    61: "images/rain.png",
+    80: "images/showers.png",
+    95: "images/thunderstorm.png",
+  };
+
+  return images[code] || "images-default.png"; // fallback image
 }
