@@ -1,6 +1,7 @@
+/* Global styles */
 body { 
-background: linear-gradient(to bottom right, #b3dced, #e0f7fa);
-font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to bottom right, #b3dced, #e0f7fa);
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -12,6 +13,28 @@ h1 {
   color: #003049;
 }
 
+/* Navigation buttons */
+.weather-nav {
+  margin: 20px 0;
+}
+
+.weather-nav button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.weather-nav button:hover {
+  background-color: #005fa3;
+}
+
+/* Weather display box */
 .weather-box {
   background-color: #ffffff;
   border: 2px solid #0077cc;
@@ -21,10 +44,10 @@ h1 {
   max-width: 600px;
   width: 90%;
   box-shadow: 2px 6px 20px rgba(0, 0, 0, 0.15);
-  text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 
+/* Image styling */
 .weather-visual {
   text-align: center;
   margin-top: 40px;
