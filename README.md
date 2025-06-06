@@ -4,11 +4,6 @@ This project is a simple weather dashboard that uses the Open-Meteo API (https:/
 
 The app demonstrates use of API endpoints, DOM manipulation, conditional rendering, and responsive design. It meets all rubric requirements including two separate user-triggered GET requests and clear navigation between data points.
 
-## Live Website
-
-View the live version of this weather app at:  
-https://carolinagutierrez2024.github.io/CarolinaG-weather-app/
-
 ## Features
 
 - Fetches and displays:
