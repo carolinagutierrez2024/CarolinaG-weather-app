@@ -4,11 +4,6 @@ This project is a simple weather dashboard that uses the Open-Meteo API (https:/
 
 The app demonstrates use of API endpoints, DOM manipulation, conditional rendering, and responsive design. It meets all rubric requirements including two separate user-triggered GET requests and clear navigation between data points.
 
-## Live Website
-
-View the live version of this weather app at:  
-https://carolinagutierrez2024.github.io/CarolinaG-weather-app/
-
 ## Features
 
 - Fetches and displays:
@@ -48,7 +43,7 @@ weather-app/
 
 
 ## How to Run the Project Locally
-
+This project runs locally. Please download the files and open index.html in a browser to view the app. To do this:
 1. Clone or download this repository to your computer.
 2. Open the `index.html` file in any modern web browser.
 3. Click the buttons labeled "Show Temperature" and "Show Condition" to retrieve live weather data for Houston.
@@ -71,7 +66,7 @@ Each button triggers a separate GET request, satisfying the project rubric’s r
 ## Author
 
 Carolina Gutierrez, PhD  
-Aspiring Web Developer & Environmental Data Scientist| Ecologist | Educator  
+Aspiring Web Developer & Environmental Data Scientist | Ecologist | Educator  
 GitHub: https://github.com/carolinagutierrez2024  
 LinkedIn: https://www.linkedin.com/in/carolina-gutierrez-phd
 
