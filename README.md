@@ -43,7 +43,7 @@ weather-app/
 
 
 ## How to Run the Project Locally
-
+This project runs locally. Please download the files and open index.html in a browser to view the app. To do this:
 1. Clone or download this repository to your computer.
 2. Open the `index.html` file in any modern web browser.
 3. Click the buttons labeled "Show Temperature" and "Show Condition" to retrieve live weather data for Houston.
