@@ -1,5 +1,5 @@
 # Carolina Gutierrez – Weather App 
-(Open-Meteo API Project)
+#(Open-Meteo API Project)
 
 This project is a simple weather dashboard that uses the Open-Meteo API (https://open-meteo.com/) to retrieve real-time weather data for Houston, TX. It was built as part of the final project for the Code the Dream Intro to Programming course.
 
