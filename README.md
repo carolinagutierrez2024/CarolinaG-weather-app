@@ -66,7 +66,7 @@ Each button triggers a separate GET request, satisfying the project rubric’s r
 ## Author
 
 Carolina Gutierrez, PhD  
-Aspiring Web Developer & Environmental Data Scientist| Ecologist | Educator  
+Aspiring Web Developer & Environmental Data Scientist | Ecologist | Educator  
 GitHub: https://github.com/carolinagutierrez2024  
 LinkedIn: https://www.linkedin.com/in/carolina-gutierrez-phd
 
