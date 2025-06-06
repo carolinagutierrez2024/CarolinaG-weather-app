@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("weatherImage").src = "images/unknown.jpg";
   document.getElementById("weatherImage").alt = "Waiting for weather update...";
 
-  // ✅ ADD FOOTER HERE
+  // ADD FOOTER HERE
   const thisYear = new Date().getFullYear();
   const footer = document.getElementById("footer");
   footer.innerHTML = `&copy; ${thisYear} Carolina Gutierrez`;
